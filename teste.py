@@ -29,4 +29,4 @@ livros = [
 def obter_livro():
     return jsonify(livros)
 
-app.run(port=5000,host='teste-api-biblioteca.onrender.com',debug=True)
+app.run(host='teste-api-biblioteca.onrender.com',debug=True)
